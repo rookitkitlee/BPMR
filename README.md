@@ -1,6 +1,6 @@
 # BPMR
 
-For the Beibei dataset execute the command python Beibei.py; the
+For the Beibei dataset execute the command python Beibei.py;
 For the Taobao dataset execute the command python Taobao.py.
 
 Since there are no random numbers involved, it is possible to get exactly the same results as in the paper.
