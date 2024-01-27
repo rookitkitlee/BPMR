@@ -19,8 +19,8 @@ class StepTNBMean:
     @staticmethod
     def subTask1(processId, tasks, datadir, MAX, ie, be, PC, NC, LPN):
 
-        pc = [0 for _ in range(be.get_bs_size())]
-        nc = [0 for _ in range(be.get_bs_size())]
+        pc = [1 for _ in range(be.get_bs_size())]
+        nc = [1 for _ in range(be.get_bs_size())]
         lpn = [0, 0]
 
         for taskid, subus in tasks:
@@ -124,8 +124,8 @@ class StepTNBMean:
 
         print('start subtasks')
 
-        PC = Array('f', [0 for _ in range(be.get_bs_size())])
-        NC = Array('f', [0 for _ in range(be.get_bs_size())])
+        PC = Array('f', [1 for _ in range(be.get_bs_size())])
+        NC = Array('f', [1 for _ in range(be.get_bs_size())])
         LPN = Array('f', [0 for _ in range(2)])
 
         ps = []
